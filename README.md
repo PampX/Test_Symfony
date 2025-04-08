@@ -1,24 +1,17 @@
-# 📰 Mini CMS Symfony
+# 📝 Mini Blog Symfony (Frontend Only)
 
-Petit projet d’apprentissage pour découvrir **Symfony** en créant un CMS simple permettant de gérer des articles (CRUD).
-
-## 🚀 Fonctionnalités
-
-- Création, édition, suppression et affichage d’articles
-- Interface web avec **Twig**
-- Base de données via **Doctrine ORM**
-- Génération automatique des formulaires
-- Design avec **Bootstrap 5**
+Petit projet d’apprentissage pour découvrir Symfony **sans base de données** :  
+Affichage dynamique de pages d’articles à partir de données simulées.
 
 ---
 
-## 🛠️ Stack technique
+## 🚀 Fonctionnalités
 
-- PHP 8.1+
-- Symfony 6+
-- Doctrine ORM
-- Twig
-- SQLite (ou MySQL)
-- Bootstrap (CDN)
+- Liste des articles simulée
+- Page de détail pour chaque article
+- Routing dynamique avec paramètres (slug)
+- Templates avec **Twig**
+- Organisation MVC claire
+- Facile à étendre avec du style ou une fausse API
 
 ---
