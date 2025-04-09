@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Article créé{% endblock %}
+
+{% block body %}
+    <h1>{{ message }}</h1>
+    <h2>{{ article.title }}</h2>
+    <p>{{ article.content }}</p>
+    <a href="{{ path('article_list') }}">Voir la liste des articles</a>
+{% endblock %}
